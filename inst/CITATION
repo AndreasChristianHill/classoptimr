@@ -1,0 +1,16 @@
+citHeader("To cite 'otpimr' in publications use:")
+citEntry(entry = "Article",
+title = "Accuracy assessment of timber volume maps using forest inventory data and LiDAR canopy height models",
+author = personList(as.person("Andreas Hill"), as.person("Jochen Breschan"), as.person("Daniel Mandallaz")),
+journal = "Forests",
+year = "2014",
+volume = "5",
+number = "9",
+pages = "2253-2275",
+url = "http://www.mdpi.com/1999-4907/5/9/2253/htm",
+textVersion =
+paste("Hill, A., Breschan, J., & Mandallaz, D. (2014).",
+"Accuracy assessment of timber volume maps using forest inventory data and LiDAR canopy height models.",
+"Forests, 5(9), 2253-2275.",
+"URL http://www.mdpi.com/1999-4907/5/9/2253/htm")
+)

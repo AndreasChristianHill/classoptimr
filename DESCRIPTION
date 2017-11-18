@@ -1,0 +1,27 @@
+Package: classoptimr
+Type: Package
+Title: Optimal classification schemes for prediction models with continuous
+    response variable
+Version: 0.1.0
+Authors@R: c(
+            person("Andreas", "Hill",       email = "andreas.hill@usys.ethz.ch", role = c("aut", "cre")),
+            person("Jochen", "Breschan",                                         role = "ctb")
+            )
+Maintainer: Andreas Hill <andreas.hill@usys.ethz.ch>
+Description: Core of this package is a heuristic optimization procedure
+    (Simulated Annealing) that allows for identifying optimal classification schemes
+    for prediction models with continuous response variables. The implemented
+    methods were primarily developed to quantify the classification accuracy of
+    prediction maps based on statistical models that provide predictions on a
+    continuous scale. In many cases, these continuous predictions are afterwards
+    discretized into classes for better visualization purposes without considering
+    the resulting accuracies of the classification scheme. In a more general
+    context, the optimization method can also be used to detect non-constant
+    prediction performance of statistical models.
+License: GPL (>= 2)
+Imports: Hmisc,
+         XML,
+         RColorBrewer,
+         zoo
+LazyData: TRUE
+RoxygenNote: 6.0.1
